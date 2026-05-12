@@ -28,6 +28,9 @@ export default function WhyCaroline() {
                 <img 
                   src="https://scontent.fceb2-1.fna.fbcdn.net/v/t39.30808-6/610675272_25568130232873405_6382451476879960419_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=I04EUGvWebAQ7kNvwFfddKC&_nc_oc=AdoRCBgPgNEOHBjUAcTCkHi0qPmklwsDIhVbLuFozAR_5cQs9MEilmcOUly-XW66UFKMpS4zdEZhkIa4z408u-WK&_nc_zt=23&_nc_ht=scontent.fceb2-1.fna&_nc_gid=BvzRkZJdbcSWk19e8sJr8w&_nc_ss=7b2a8&oh=00_Af7KqVv9LfLkjmrhv1aG-VebVsE59-jjN8hGPK9w-euD2w&oe=6A08448C" 
                   alt="Caroline Baca Artist" 
+                  width="500"
+                  height="667"
+                  loading="lazy"
                   className="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-1000"
                   referrerPolicy="no-referrer"
                 />

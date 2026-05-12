@@ -18,12 +18,12 @@ export default function Instagram() {
           <p className="text-primary/60">Peek behind the scenes and see daily transformations on our Instagram.</p>
         </div>
         <a 
-          href="https://instagram.com/brow.rn.mn"
+          href="https://www.instagram.com/brow.rn_"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center space-x-3 group"
         >
-          <span className="text-xl md:text-2xl font-serif text-accent italic group-hover:text-primary transition-colors">@brow.rn.mn</span>
+          <span className="text-xl md:text-2xl font-serif text-accent italic group-hover:text-primary transition-colors">@brow.rn_</span>
           <div className="w-12 h-12 rounded-full border border-accent/20 flex items-center justify-center group-hover:bg-accent group-hover:border-accent transition-all duration-300">
             <InstagramIcon size={20} className="text-accent group-hover:text-white transition-colors" />
           </div>
@@ -34,7 +34,7 @@ export default function Instagram() {
         {instagramImages.map((src, i) => (
           <motion.a
             key={i}
-            href="https://instagram.com/brow.rn.mn"
+            href="https://www.instagram.com/brow.rn_"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ y: -10 }}
@@ -44,6 +44,9 @@ export default function Instagram() {
             <img 
               src={src} 
               alt={`Instagram post ${i + 1}`} 
+              width="400"
+              height="400"
+              loading="lazy"
               className="w-full h-full object-cover grayscale-[20%] group-hover:grayscale-0 group-hover:scale-110 transition-all duration-1000"
               referrerPolicy="no-referrer"
             />

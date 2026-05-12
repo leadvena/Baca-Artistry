@@ -31,6 +31,9 @@ export default function Hero() {
         <img 
           src="/images/hero.png" 
           alt="Luxury Permanent Makeup Artistry" 
+          width="1920"
+          height="1080"
+          fetchpriority="high"
           className="w-full h-full object-cover opacity-60 grayscale-[30%]"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[#FDF6F0]/80 via-transparent to-[#FDF6F0]" />

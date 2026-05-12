@@ -58,6 +58,9 @@ export default function Services() {
                   <img 
                     src={service.image} 
                     alt={service.title} 
+                    width="600"
+                    height="750"
+                    loading="lazy"
                     className="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 hover:scale-105 transition-all duration-1000"
                     referrerPolicy="no-referrer"
                   />

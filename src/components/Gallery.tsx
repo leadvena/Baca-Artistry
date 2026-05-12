@@ -37,6 +37,9 @@ export default function Gallery() {
                       <img 
                         src={item.before} 
                         alt={`${item.title} Before`} 
+                        width="300"
+                        height="400"
+                        loading="lazy"
                         className="absolute h-full w-[200%] max-w-none object-cover left-0 grayscale"
                         referrerPolicy="no-referrer"
                       />
@@ -48,6 +51,9 @@ export default function Gallery() {
                       <img 
                         src={item.after} 
                         alt={`${item.title} After`} 
+                        width="300"
+                        height="400"
+                        loading="lazy"
                         className="absolute h-full w-[200%] max-w-none object-cover right-0"
                         referrerPolicy="no-referrer"
                       />
@@ -62,6 +68,9 @@ export default function Gallery() {
                     <img 
                       src={item.after} 
                       alt={item.title} 
+                      width="600"
+                      height="800"
+                      loading="lazy"
                       className="w-full h-full object-cover scale-110 group-hover:scale-100 transition-transform duration-1000"
                       referrerPolicy="no-referrer"
                     />
@@ -79,7 +88,7 @@ export default function Gallery() {
         
         <div className="mt-24 text-center">
           <a 
-            href="https://instagram.com/brow.rn.mn"
+            href="https://www.instagram.com/brow.rn_"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-4 px-8 py-4 border border-primary/10 rounded-xl hover:border-accent hover:text-accent transition-all duration-300 group"
