@@ -7,14 +7,19 @@ export default function FloatingWhatsApp() {
       href="https://wa.me/16514024979"
       target="_blank"
       rel="noopener noreferrer"
+      aria-label="Chat with Caroline on WhatsApp"
       initial={{ scale: 0, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
+      transition={{ delay: 3, duration: 0.5 }}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
-      className="fixed bottom-8 right-8 z-[100] w-16 h-16 bg-white shadow-2xl shadow-accent/20 rounded-full flex items-center justify-center border border-accent/20 group"
+      className="fixed bottom-8 right-8 z-[100] w-16 h-16 glass rounded-full flex items-center justify-center group shadow-warm"
     >
       <div className="absolute inset-0 bg-accent scale-0 group-hover:scale-100 transition-transform duration-500 rounded-full" />
       <MessageCircle size={28} className="text-accent group-hover:text-white transition-colors relative z-10" />
+      
+      {/* Pulse Effect */}
+      <div className="absolute inset-0 rounded-full bg-accent/20 animate-ping" />
       
       {/* Label Tooltip */}
       <span className="absolute right-20 bg-primary text-white text-[10px] uppercase tracking-widest px-4 py-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
