@@ -69,7 +69,7 @@ export default function Gallery() {
                 </div>
                 
                 <div className="text-center">
-                  <h4 className="font-serif text-xl text-primary mb-1">{item.title}</h4>
+                  <h3 className="font-serif text-xl text-primary mb-1">{item.title}</h3>
                   <p className="text-[10px] uppercase tracking-widest text-accent font-bold">Healed Results</p>
                 </div>
               </div>

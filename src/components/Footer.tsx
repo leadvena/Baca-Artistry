@@ -18,9 +18,9 @@ export default function Footer() {
               A boutique studio dedicated to the art of natural permanent makeup. Located in the heart of Minneapolis, serving those who value subtle, high-end artistry.
             </p>
             <div className="flex space-x-10">
-              <a href="https://www.instagram.com/brow.rn_" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-accent transition-colors"><Instagram size={28} /></a>
-              <a href="https://www.facebook.com/TheBrowRn2025" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-accent transition-colors"><Facebook size={28} /></a>
-              <a href="https://wa.me/16514024979" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-accent transition-colors"><MessageCircle size={28} /></a>
+              <a href="https://www.instagram.com/brow.rn_" target="_blank" rel="noopener noreferrer" aria-label="Follow Brow.rn on Instagram" className="text-white/40 hover:text-accent transition-colors"><Instagram size={28} /></a>
+              <a href="https://www.facebook.com/TheBrowRn2025" target="_blank" rel="noopener noreferrer" aria-label="Follow Brow.rn on Facebook" className="text-white/40 hover:text-accent transition-colors"><Facebook size={28} /></a>
+              <a href="https://wa.me/16514024979" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp" className="text-white/40 hover:text-accent transition-colors"><MessageCircle size={28} /></a>
             </div>
           </div>
 

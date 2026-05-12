@@ -35,7 +35,7 @@ export default function Booking() {
                   <span className="font-serif text-accent text-xl italic">1</span>
                 </div>
                 <div>
-                  <h4 className="font-serif text-xl text-primary mb-2">Request Consultation</h4>
+                  <h3 className="font-serif text-xl text-primary mb-2">Request Consultation</h3>
                   <p className="text-sm text-primary/50">Submit the form with your goals.</p>
                 </div>
               </div>
@@ -44,7 +44,7 @@ export default function Booking() {
                   <span className="font-serif text-accent text-xl italic">2</span>
                 </div>
                 <div>
-                  <h4 className="font-serif text-xl text-primary mb-2">Phone Screening</h4>
+                  <h3 className="font-serif text-xl text-primary mb-2">Phone Screening</h3>
                   <p className="text-sm text-primary/50">We'll chat about your skin and lifestyle.</p>
                 </div>
               </div>
@@ -53,7 +53,7 @@ export default function Booking() {
                   <span className="font-serif text-accent text-xl italic">3</span>
                 </div>
                 <div>
-                  <h4 className="font-serif text-xl text-primary mb-2">Artistry Session</h4>
+                  <h3 className="font-serif text-xl text-primary mb-2">Artistry Session</h3>
                   <p className="text-sm text-primary/50">Your features, but perfected.</p>
                 </div>
               </div>
@@ -94,8 +94,8 @@ export default function Booking() {
                   </div>
 
                   <div className="space-y-2">
-                    <label className="text-[10px] uppercase tracking-widest text-primary/40 font-bold ml-1">Service Selection</label>
-                    <select required className="w-full bg-bg-base border-none rounded-xl p-4 text-sm focus:ring-2 focus:ring-accent/20 outline-none appearance-none cursor-pointer">
+                    <label htmlFor="service-select" className="text-[10px] uppercase tracking-widest text-primary/40 font-bold ml-1">Service Selection</label>
+                    <select id="service-select" required className="w-full bg-bg-base border-none rounded-xl p-4 text-sm focus:ring-2 focus:ring-accent/20 outline-none appearance-none cursor-pointer">
                       <option value="">Select a service...</option>
                       <option>Combo Brows</option>
                       <option>Microblading</option>

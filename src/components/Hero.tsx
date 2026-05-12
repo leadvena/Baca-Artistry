@@ -25,7 +25,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative min-h-[90vh] flex flex-col items-center justify-center pt-48 pb-20 px-6 overflow-hidden bg-[#FDF6F0]">
+    <section id="main-content" className="relative min-h-[90vh] flex flex-col items-center justify-center pt-48 pb-20 px-6 overflow-hidden bg-[#FDF6F0]">
       {/* Background Image/Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
