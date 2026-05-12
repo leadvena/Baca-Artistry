@@ -25,18 +25,15 @@ export default function Hero() {
   };
 
   return (
-    <section id="main-content" className="relative min-h-[100dvh] flex flex-col justify-end overflow-hidden pb-24 md:pb-32">
-      {/* Background Image Container */}
+    <section className="relative min-h-[90vh] flex flex-col items-center justify-center pt-48 pb-20 px-6 overflow-hidden bg-[#FDF6F0]">
+      {/* Background Image/Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&q=80&w=1920" 
-          alt="Editorial PMU Portrait" 
-          className="w-full h-full object-cover"
-          referrerPolicy="no-referrer"
+          src="/images/hero.png" 
+          alt="Luxury Permanent Makeup Artistry" 
+          className="w-full h-full object-cover opacity-60 grayscale-[30%]"
         />
-        {/* Cinematic Overlays */}
-        <div className="absolute inset-0 bg-primary/20 mix-blend-multiply" />
-        <div className="absolute inset-0 bg-gradient-to-t from-bg-base via-bg-base/40 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#FDF6F0]/80 via-transparent to-[#FDF6F0]" />
       </div>
 
       {/* Content Container */}

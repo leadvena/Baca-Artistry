@@ -21,7 +21,7 @@ export default function TrustStrip() {
               viewport={{ once: true }}
               className="flex items-center space-x-4"
             >
-              {i !== 0 && <div className="hidden md:block w-1.5 h-1.5 bg-accent rounded-full opacity-30" />}
+              {i !== 0 && <div className="hidden md:block w-2 h-2 bg-accent rounded-full opacity-30" />}
               <span className="text-[10px] md:text-xs uppercase tracking-[0.4em] text-primary/60 font-semibold whitespace-nowrap">
                 {item}
               </span>

@@ -16,7 +16,7 @@ export default function FloatingWhatsApp() {
       className="fixed bottom-8 right-8 z-[100] w-16 h-16 glass rounded-full flex items-center justify-center group shadow-warm"
     >
       <div className="absolute inset-0 bg-accent scale-0 group-hover:scale-100 transition-transform duration-500 rounded-full" />
-      <MessageCircle size={28} className="text-accent group-hover:text-white transition-colors relative z-10" />
+      <MessageCircle size={32} className="text-accent group-hover:text-white transition-colors relative z-10" />
       
       {/* Pulse Effect */}
       <div className="absolute inset-0 rounded-full bg-accent/20 animate-ping" />

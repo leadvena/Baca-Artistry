@@ -65,8 +65,8 @@ export default function WhyCaroline() {
                   viewport={{ once: true }}
                   className="flex items-center space-x-3"
                 >
-                  <div className="flex-shrink-0 w-5 h-5 rounded-full bg-accent/10 flex items-center justify-center">
-                    <Check size={12} className="text-accent" />
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-accent/10 flex items-center justify-center">
+                    <Check size={14} className="text-accent" />
                   </div>
                   <span className="text-sm text-primary/70 font-medium">{cred}</span>
                 </motion.div>

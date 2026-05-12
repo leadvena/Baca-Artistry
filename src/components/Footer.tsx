@@ -10,17 +10,17 @@ export default function Footer() {
               <img 
                 src="https://ad00af1024ae9f73a262.cdn6.editmysite.com/uploads/b/ad00af1024ae9f73a262fa8a18029013fa6e680237bb1385b1a149fea37935f2/0E1F15E7-32B7-44A1-BAF8-327ECE54DF5C_1751573053.png?width=2400&optimize=medium" 
                 alt="Brow.rn Logo" 
-                className="h-10 w-auto invert brightness-0 group-hover:scale-105 transition-transform duration-500"
+                className="h-12 w-auto invert brightness-0 group-hover:scale-105 transition-transform duration-500"
                 referrerPolicy="no-referrer"
               />
             </a>
             <p className="text-white/50 text-lg leading-relaxed max-w-md">
               A boutique studio dedicated to the art of natural permanent makeup. Located in the heart of Minneapolis, serving those who value subtle, high-end artistry.
             </p>
-            <div className="flex space-x-8">
-              <a href="https://instagram.com/brow.rn.mn" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-accent transition-colors"><Instagram size={24} /></a>
-              <a href="https://facebook.com/browrn.mn" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-accent transition-colors"><Facebook size={24} /></a>
-              <a href="https://wa.me/16514024979" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-accent transition-colors"><MessageCircle size={24} /></a>
+            <div className="flex space-x-10">
+              <a href="https://www.instagram.com/brow.rn_" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-accent transition-colors"><Instagram size={28} /></a>
+              <a href="https://www.facebook.com/TheBrowRn2025" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-accent transition-colors"><Facebook size={28} /></a>
+              <a href="https://wa.me/16514024979" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-accent transition-colors"><MessageCircle size={28} /></a>
             </div>
           </div>
 

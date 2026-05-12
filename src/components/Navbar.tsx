@@ -19,13 +19,13 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${scrolled ? 'pt-4' : 'pt-0'}`}>
-      <div className={`max-w-5xl mx-auto px-6 h-20 flex items-center justify-between transition-all duration-500 ${scrolled ? 'glass rounded-2xl mx-4 md:mx-auto' : 'bg-transparent'}`}>
+    <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${scrolled ? 'pt-2' : 'pt-0'}`}>
+      <div className={`max-w-5xl mx-auto px-6 h-16 flex items-center justify-between transition-all duration-500 ${scrolled ? 'glass rounded-xl mx-4 md:mx-auto' : 'bg-transparent'}`}>
         <a href="#" className="flex items-center group">
           <img 
             src="https://ad00af1024ae9f73a262.cdn6.editmysite.com/uploads/b/ad00af1024ae9f73a262fa8a18029013fa6e680237bb1385b1a149fea37935f2/0E1F15E7-32B7-44A1-BAF8-327ECE54DF5C_1751573053.png?width=2400&optimize=medium" 
             alt="Brow.rn Logo" 
-            className="h-8 w-auto group-hover:scale-110 transition-transform duration-500"
+            className="h-10 w-auto group-hover:scale-110 transition-transform duration-500"
             referrerPolicy="no-referrer"
           />
         </a>

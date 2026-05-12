@@ -6,7 +6,7 @@ const services = [
     title: 'Combo Brows',
     description: 'The ultimate brow transformation. By combining manual microblading strokes with soft machine shading, we create depth and dimension that mimics natural hair growth while providing a beautifully defined shape.',
     price: '$500',
-    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=1200',
+    image: '/images/combo-brows.png',
     tag: 'Most Popular'
   },
   {
@@ -88,11 +88,11 @@ export default function Services() {
                   <div className="h-px w-12 bg-accent/20 hidden sm:block" />
                   <a 
                     href="#book"
-                    className="inline-flex items-center space-x-4 text-[10px] uppercase tracking-[0.3em] font-bold text-accent group"
+                    className="inline-flex items-center space-x-6 text-[10px] uppercase tracking-[0.3em] font-bold text-accent group"
                   >
                     <span>Reserve Session</span>
-                    <div className="w-8 h-8 rounded-full border border-accent/20 flex items-center justify-center group-hover:bg-accent group-hover:border-accent transition-all duration-300">
-                      <div className="w-1 h-1 bg-accent group-hover:bg-white rounded-full" />
+                    <div className="w-10 h-10 rounded-full border border-accent/20 flex items-center justify-center group-hover:bg-accent group-hover:border-accent transition-all duration-300">
+                      <div className="w-1.5 h-1.5 bg-accent group-hover:bg-white rounded-full" />
                     </div>
                   </a>
                 </div>
