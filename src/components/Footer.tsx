@@ -6,7 +6,14 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-16 md:gap-8">
         {/* Left Column */}
         <div className="md:col-span-5">
-          <h2 className="text-3xl font-serif mb-6">Brow.RN_</h2>
+          <div className="flex items-center mb-6">
+            <img 
+              src="https://ad00af1024ae9f73a262.cdn6.editmysite.com/uploads/b/ad00af1024ae9f73a262fa8a18029013fa6e680237bb1385b1a149fea37935f2/0E1F15E7-32B7-44A1-BAF8-327ECE54DF5C_1751573053.png?width=2400&optimize=medium" 
+              alt="Brow.rn Logo" 
+              className="h-12 w-auto invert brightness-0"
+              referrerPolicy="no-referrer"
+            />
+          </div>
           <p className="text-white/50 text-sm max-w-sm leading-relaxed mb-8">
             Minneapolis' premier cosmetic tattoo studio. Elevate your everyday beauty with natural, high-end permanent makeup.
           </p>
@@ -50,7 +57,7 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto pt-24 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-[10px] uppercase tracking-[0.2em] text-white/20 font-medium">
-        <p>© 2026 Brow.RN_ Studio. All Rights Reserved.</p>
+        <p>© 2026 Brow.rn Studio. All Rights Reserved.</p>
         <div className="flex space-x-6 mt-4 md:mt-0">
           <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
           <a href="#" className="hover:text-white transition-colors">Terms of Service</a>

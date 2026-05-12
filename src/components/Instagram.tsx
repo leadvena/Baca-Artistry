@@ -14,7 +14,7 @@ export default function Instagram() {
     <section className="py-32 overflow-hidden border-t border-accent/5">
       <div className="text-center mb-16 px-6">
         <h2 className="text-3xl md:text-4xl font-serif text-primary mb-2">Follow the Journey</h2>
-        <p className="text-accent tracking-widest text-sm font-medium">@Brow.RN_</p>
+        <p className="text-accent tracking-widest text-sm font-medium">@Brow.rn.mn</p>
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6">

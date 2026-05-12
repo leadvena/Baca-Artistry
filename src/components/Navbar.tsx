@@ -14,8 +14,13 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-bg-base/80 backdrop-blur-md border-b border-accent/10">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-        <a href="#" className="font-serif text-2xl tracking-tight text-primary">
-          Brow.RN_
+        <a href="#" className="flex items-center">
+          <img 
+            src="https://ad00af1024ae9f73a262.cdn6.editmysite.com/uploads/b/ad00af1024ae9f73a262fa8a18029013fa6e680237bb1385b1a149fea37935f2/0E1F15E7-32B7-44A1-BAF8-327ECE54DF5C_1751573053.png?width=2400&optimize=medium" 
+            alt="Brow.rn Logo" 
+            className="h-10 w-auto"
+            referrerPolicy="no-referrer"
+          />
         </a>
 
         {/* Desktop Nav */}
