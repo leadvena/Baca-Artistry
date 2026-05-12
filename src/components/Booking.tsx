@@ -34,10 +34,12 @@ export default function Booking() {
           <div className="flex flex-col space-y-2">
             <label className="text-xs uppercase tracking-widest text-primary/50 font-bold ml-1">Service</label>
             <select className="w-full bg-bg-base border-none p-4 text-sm focus:ring-1 focus:ring-accent outline-none appearance-none">
-              <option>Microblading</option>
-              <option>Powder Brows</option>
-              <option>Lip Blush</option>
-              <option>Eyeliner Tattoo</option>
+              <option>A.1 Combo Brows</option>
+              <option>A.2 Microblading</option>
+              <option>A.3 Powder Brows</option>
+              <option>B.5 Lip Blush</option>
+              <option>B.2 Soft Wing Liner</option>
+              <option>B.1 Classic Eyeliner</option>
             </select>
           </div>
 

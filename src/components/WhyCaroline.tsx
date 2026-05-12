@@ -40,7 +40,7 @@ export default function WhyCaroline() {
             <p className="text-xs uppercase tracking-[0.3em] text-accent mb-4 font-medium">The Artist</p>
             <h2 className="text-4xl md:text-5xl font-serif text-primary mb-8">Meet Caroline Baca</h2>
             <p className="text-lg text-primary/60 leading-relaxed max-w-2xl">
-              With over 8 years of experience in the beauty industry, Caroline has dedicated her career to the art of subtle transformation. Based in Manila, her approach to permanent makeup is rooted in the "less is more" philosophy—creating results so natural, they are effortlessly yours.
+              Caroline Baca is the founder of Brow.RN_, a premier cosmetic tattoo studio in Minneapolis. Combining her clinical precision with an artist's eye, she specializes in hyper-realistic techniques that enhance your unique features. Her philosophy is simple: your features, but perfected.
             </p>
           </div>
 

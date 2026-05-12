@@ -6,9 +6,9 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-16 md:gap-8">
         {/* Left Column */}
         <div className="md:col-span-5">
-          <h2 className="text-3xl font-serif mb-6">Baca Artistry</h2>
+          <h2 className="text-3xl font-serif mb-6">Brow.RN_</h2>
           <p className="text-white/50 text-sm max-w-sm leading-relaxed mb-8">
-            Providing high-end editorial permanent makeup services for the modern woman. Enhancing beauty, one stroke at a time.
+            Minneapolis' premier cosmetic tattoo studio. Elevate your everyday beauty with natural, high-end permanent makeup.
           </p>
           <div className="flex space-x-6">
             <a href="#" className="text-white/40 hover:text-accent transition-colors"><Instagram size={20} /></a>
@@ -35,22 +35,22 @@ export default function Footer() {
           <div className="space-y-6">
             <div>
               <p className="text-[10px] uppercase tracking-widest text-white/30 mb-1">Clinic Address</p>
-              <p className="text-sm text-white/80">Unit 402, Luxe Building, BGC, Taguig, Manila</p>
+              <p className="text-sm text-white/80">5451 Lyndale Ave S, Minneapolis, MN 55419, United States</p>
             </div>
             <div>
               <p className="text-[10px] uppercase tracking-widest text-white/30 mb-1">Email Inquiry</p>
-              <p className="text-sm text-white/80 hover:text-accent cursor-pointer transition-colors">hello@bacaartistry.com</p>
+              <p className="text-sm text-white/80 hover:text-accent cursor-pointer transition-colors">brow.rn.mn@gmail.com</p>
             </div>
             <div>
               <p className="text-[10px] uppercase tracking-widest text-white/30 mb-1">Bookings</p>
-              <p className="text-sm text-white/80">+63 917 123 4567</p>
+              <p className="text-sm text-white/80">+1 651-402-4979</p>
             </div>
           </div>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto pt-24 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-[10px] uppercase tracking-[0.2em] text-white/20 font-medium">
-        <p>© 2026 Baca Artistry Studio. All Rights Reserved.</p>
+        <p>© 2026 Brow.RN_ Studio. All Rights Reserved.</p>
         <div className="flex space-x-6 mt-4 md:mt-0">
           <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
           <a href="#" className="hover:text-white transition-colors">Terms of Service</a>

@@ -2,28 +2,40 @@ import { motion } from 'motion/react';
 
 const services = [
   {
-    title: 'Microblading',
-    description: 'Ultra-fine, hairlike strokes that mimic natural brow hair for a realistic, fuller look.',
-    price: '₱12,000',
+    title: 'A.1 Combo Brows',
+    description: 'The best of both worlds. Combined manual strokes and machine shading for ultimate dimension.',
+    price: '$500',
     image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=600',
   },
   {
-    title: 'Powder Brows',
+    title: 'A.2 Microblading',
+    description: 'Ultra-fine, hairlike strokes that mimic natural brow hair for a realistic, fuller look.',
+    price: '$450',
+    image: 'https://images.unsplash.com/photo-1595475242265-c3a8c01ad9ed?auto=format&fit=crop&q=80&w=600',
+  },
+  {
+    title: 'A.3 Powder Brows',
     description: 'A soft, misty gradient effect that gives the appearance of beautifully filled-in brows.',
-    price: '₱15,000',
+    price: '$475',
     image: 'https://images.unsplash.com/photo-1526045612212-70caf35c11bc?auto=format&fit=crop&q=80&w=600',
   },
   {
-    title: 'Lip Blush',
+    title: 'B.5 Lip Blush',
     description: 'Enhancing the natural color and shape of your lips with a soft, tinted wash of color.',
-    price: '₱18,000',
+    price: '$475',
     image: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&q=80&w=600',
   },
   {
-    title: 'Eyeliner Tattoo',
-    description: 'Defined eyes that last. From subtle lash enhancement to a more dramatic winged look.',
-    price: '₱10,000',
+    title: 'B.2 Soft Wing Liner',
+    description: 'Defined eyes that last. A subtle lash enhancement with a soft, elegant winged look.',
+    price: '$450',
     image: 'https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&q=80&w=600',
+  },
+  {
+    title: 'B.1 Classic Eyeliner',
+    description: 'A classic lash line enhancement to make your eyes pop without the daily struggle.',
+    price: '$400',
+    image: 'https://images.unsplash.com/photo-1590439472304-4c8d84489a54?auto=format&fit=crop&q=80&w=600',
   },
 ];
 

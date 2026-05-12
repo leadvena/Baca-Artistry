@@ -3,19 +3,19 @@ import { motion } from 'motion/react';
 
 const testimonials = [
   {
-    quote: "I can't believe I waited this long. Caroline is a true artist—my brows looks so natural, my friends think I just have amazing genes.",
-    author: "Isabella",
-    service: "Microblading",
+    quote: "I had combo brow done with Caroline and couldn’t be happier with the results! Truly a master of her craft.",
+    author: "Sugandha Singh",
+    service: "Combo Brows",
   },
   {
-    quote: "The Lip Blush treatment completely changed my morning routine. I wake up with the perfect tint every single day. Professional and hygienic.",
-    author: "Sofia",
+    quote: "Truly loved and enjoyed my experience! Caroline is professional and kind, and the results are just stunning.",
+    author: "Diana Arco",
     service: "Lip Blush",
   },
   {
-    quote: "Service was impeccable. Caroline took the time to explain everything and made sure I was comfortable. The Powder Brows are flawless.",
-    author: "Elena",
-    service: "Powder Brows",
+    quote: "I've received so many compliments on my brows. They look so natural and have honestly boosted my daily confidence.",
+    author: "Paulina Gram",
+    service: "Microblading",
   },
 ];
 

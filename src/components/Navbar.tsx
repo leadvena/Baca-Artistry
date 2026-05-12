@@ -15,7 +15,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 w-full z-50 bg-bg-base/80 backdrop-blur-md border-b border-accent/10">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <a href="#" className="font-serif text-2xl tracking-tight text-primary">
-          Baca Artistry
+          Brow.RN_
         </a>
 
         {/* Desktop Nav */}

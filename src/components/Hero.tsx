@@ -31,11 +31,11 @@ export default function Hero() {
             Master PMU Artist
           </motion.p>
           <motion.h1 variants={itemVariants} className="text-6xl md:text-8xl font-serif leading-[1.1] text-primary mb-8">
-            Permanent Beauty.<br />
-            <span className="italic">Effortlessly Yours.</span>
+            Your Features.<br />
+            <span className="italic">But Perfected.</span>
           </motion.h1>
           <motion.p variants={itemVariants} className="text-lg text-primary/60 mb-12 max-w-md leading-relaxed">
-            Enhancing your natural features with precision and artistry. Wake up every day feeling confident and refined.
+            Minneapolis' premier boutique for natural permanent makeup. Elevate your everyday beauty with Brow.RN_ by Caroline Baca.
           </motion.p>
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4">
             <a 

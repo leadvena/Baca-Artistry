@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 export default function FloatingWhatsApp() {
   return (
     <motion.a
-      href="https://wa.me/XXXXXXXXXX"
+      href="https://wa.me/16514024979"
       target="_blank"
       rel="noopener noreferrer"
       initial={{ scale: 0, opacity: 0 }}
