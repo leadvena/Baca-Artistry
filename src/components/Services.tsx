@@ -11,13 +11,13 @@ const services = [
     title: 'A.2 Microblading',
     description: 'Ultra-fine, hairlike strokes that mimic natural brow hair for a realistic, fuller look.',
     price: '$450',
-    image: 'https://images.unsplash.com/photo-1595475242265-c3a8c01ad9ed?auto=format&fit=crop&q=80&w=600',
+    image: 'https://i.pinimg.com/736x/28/e1/ff/28e1ff4f75be5a5ddb15b9287205b18c.jpg',
   },
   {
     title: 'A.3 Powder Brows',
     description: 'A soft, misty gradient effect that gives the appearance of beautifully filled-in brows.',
     price: '$475',
-    image: 'https://images.unsplash.com/photo-1526045612212-70caf35c11bc?auto=format&fit=crop&q=80&w=600',
+    image: 'https://i.pinimg.com/736x/e3/b9/d2/e3b9d2ebd73f0e2da15af573db1c96ce.jpg',
   },
   {
     title: 'B.5 Lip Blush',
@@ -29,13 +29,13 @@ const services = [
     title: 'B.2 Soft Wing Liner',
     description: 'Defined eyes that last. A subtle lash enhancement with a soft, elegant winged look.',
     price: '$450',
-    image: 'https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&q=80&w=600',
+    image: 'https://i.pinimg.com/1200x/88/94/72/889472d97ee9e57ecc632267ee7de6d6.jpg',
   },
   {
     title: 'B.1 Classic Eyeliner',
     description: 'A classic lash line enhancement to make your eyes pop without the daily struggle.',
     price: '$400',
-    image: 'https://images.unsplash.com/photo-1590439472304-4c8d84489a54?auto=format&fit=crop&q=80&w=600',
+    image: 'https://i.pinimg.com/1200x/cf/ab/37/cfab378233acc5b8c51176b9c0649b16.jpg',
   },
 ];
 

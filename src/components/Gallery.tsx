@@ -1,12 +1,12 @@
 import { motion } from 'motion/react';
 
 const galleryItems = [
-  { id: 1, title: 'Natural Brow Restoration', before: 'https://images.unsplash.com/photo-1583243543264-d41f5533d728?auto=format&fit=crop&q=80&w=400', after: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=400' },
+  { id: 1, title: 'Natural Brow Restoration', before: 'https://i.pinimg.com/736x/48/c2/73/48c273c3845c1341eb19cff2dcd2ce0f.jpg', after: 'https://i.pinimg.com/736x/48/c2/73/48c273c3845c1341eb19cff2dcd2ce0f.jpg' },
   { id: 2, title: 'Velvet Lip Blush', before: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&q=80&w=400&blur=10', after: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&q=80&w=400' },
-  { id: 3, title: 'Soft Ombre Powder Brows', before: 'https://images.unsplash.com/photo-1526045612212-70caf35c11bc?auto=format&fit=crop&q=80&w=400&blur=5', after: 'https://images.unsplash.com/photo-1526045612212-70caf35c11bc?auto=format&fit=crop&q=80&w=400' },
+  { id: 3, title: 'Soft Ombre Powder Brows', before: 'https://i.pinimg.com/736x/f4/d0/2d/f4d02d93c4c5b58c140a466299097c81.jpg', after: 'https://i.pinimg.com/736x/f4/d0/2d/f4d02d93c4c5b58c140a466299097c81.jpg' },
   { id: 4, title: 'Lash Enhancement Eyeliner', before: 'https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&q=80&w=400&sepia=1', after: 'https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&q=80&w=400' },
   { id: 5, title: 'Full Lip Definition', before: 'https://images.unsplash.com/photo-1498842812179-c81beecf902c?auto=format&fit=crop&q=80&w=400&blur=8', after: 'https://images.unsplash.com/photo-1498842812179-c81beecf902c?auto=format&fit=crop&q=80&w=400' },
-  { id: 6, title: 'Feather Touch Brows', before: 'https://images.unsplash.com/photo-1595475242265-c3a8c01ad9ed?auto=format&fit=crop&q=80&w=400&blur=6', after: 'https://images.unsplash.com/photo-1595475242265-c3a8c01ad9ed?auto=format&fit=crop&q=80&w=400' },
+  { id: 6, title: 'Feather Touch Brows', before: 'https://i.pinimg.com/736x/6a/63/cd/6a63cdea50de76f2ec56b2ec83bf081e.jpg', after: 'https://i.pinimg.com/736x/6a/63/cd/6a63cdea50de76f2ec56b2ec83bf081e.jpg' },
 ];
 
 export default function Gallery() {
@@ -29,33 +29,45 @@ export default function Gallery() {
               className="masonry-item group"
             >
               <div className="flex flex-col space-y-4">
-                <div className="flex gap-2">
-                  {/* Before */}
-                  <div className="flex-1 flex flex-col space-y-2">
-                    <div className="aspect-[4/5] bg-[#EDE4DD] relative overflow-hidden">
-                      <img 
-                        src={item.before} 
-                        alt={`${item.title} Before`} 
-                        className="w-full h-full object-cover grayscale opacity-60"
-                        referrerPolicy="no-referrer"
-                      />
-                    </div>
-                    <span className="text-[10px] uppercase tracking-widest text-primary/40 text-center font-medium">Before</span>
+                {item.before === item.after ? (
+                  <div className="aspect-[4/5] bg-[#E2D1C3] relative overflow-hidden border border-accent/20">
+                    <img 
+                      src={item.after} 
+                      alt={item.title} 
+                      className="w-full h-full object-cover"
+                      referrerPolicy="no-referrer"
+                    />
+                    <div className="absolute inset-0 bg-accent/5" />
                   </div>
-                  {/* After */}
-                  <div className="flex-1 flex flex-col space-y-2">
-                    <div className="aspect-[4/5] bg-[#E2D1C3] relative overflow-hidden border border-accent/20">
-                      <img 
-                        src={item.after} 
-                        alt={`${item.title} After`} 
-                        className="w-full h-full object-cover"
-                        referrerPolicy="no-referrer"
-                      />
-                      <div className="absolute inset-0 bg-accent/5" />
+                ) : (
+                  <div className="flex gap-2">
+                    {/* Before */}
+                    <div className="flex-1 flex flex-col space-y-2">
+                      <div className="aspect-[4/5] bg-[#EDE4DD] relative overflow-hidden">
+                        <img 
+                          src={item.before} 
+                          alt={`${item.title} Before`} 
+                          className="w-full h-full object-cover grayscale opacity-60"
+                          referrerPolicy="no-referrer"
+                        />
+                      </div>
+                      <span className="text-[10px] uppercase tracking-widest text-primary/40 text-center font-medium">Before</span>
                     </div>
-                    <span className="text-[10px] uppercase tracking-widest text-accent font-medium text-center">After</span>
+                    {/* After */}
+                    <div className="flex-1 flex flex-col space-y-2">
+                      <div className="aspect-[4/5] bg-[#E2D1C3] relative overflow-hidden border border-accent/20">
+                        <img 
+                          src={item.after} 
+                          alt={`${item.title} After`} 
+                          className="w-full h-full object-cover"
+                          referrerPolicy="no-referrer"
+                        />
+                        <div className="absolute inset-0 bg-accent/5" />
+                      </div>
+                      <span className="text-[10px] uppercase tracking-widest text-accent font-medium text-center">After</span>
+                    </div>
                   </div>
-                </div>
+                )}
                 <div className="pt-2">
                   <h4 className="font-serif text-sm italic text-primary/60">{item.title}</h4>
                 </div>
