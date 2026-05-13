@@ -48,7 +48,6 @@ export default function Instagram() {
               height="400"
               loading="lazy"
               className="w-full h-full object-cover grayscale-[20%] group-hover:grayscale-0 group-hover:scale-110 transition-all duration-1000"
-              referrerPolicy="no-referrer"
             />
             <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-20">
               <InstagramIcon size={32} className="text-white" />

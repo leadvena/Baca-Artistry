@@ -32,7 +32,6 @@ export default function WhyCaroline() {
                   height="667"
                   loading="lazy"
                   className="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-1000"
-                  referrerPolicy="no-referrer"
                 />
               </div>
               

@@ -41,7 +41,6 @@ export default function Gallery() {
                         height="400"
                         loading="lazy"
                         className="absolute h-full w-[200%] max-w-none object-cover left-0 grayscale"
-                        referrerPolicy="no-referrer"
                       />
                       <div className="absolute top-4 left-4 px-3 py-1 bg-black/40 backdrop-blur-md rounded-full text-[8px] uppercase tracking-widest text-white font-bold">
                         Before
@@ -55,7 +54,6 @@ export default function Gallery() {
                         height="400"
                         loading="lazy"
                         className="absolute h-full w-[200%] max-w-none object-cover right-0"
-                        referrerPolicy="no-referrer"
                       />
                       <div className="absolute top-4 right-4 px-3 py-1 bg-accent/80 backdrop-blur-md rounded-full text-[8px] uppercase tracking-widest text-white font-bold">
                         After
@@ -72,7 +70,6 @@ export default function Gallery() {
                       height="800"
                       loading="lazy"
                       className="w-full h-full object-cover scale-110 group-hover:scale-100 transition-transform duration-1000"
-                      referrerPolicy="no-referrer"
                     />
                   </div>
                 </div>
