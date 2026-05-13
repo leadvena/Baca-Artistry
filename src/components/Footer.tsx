@@ -8,10 +8,11 @@ export default function Footer() {
           <div className="space-y-12">
             <a href="#" className="inline-block group">
               <img 
-                src="https://ad00af1024ae9f73a262.cdn6.editmysite.com/uploads/b/ad00af1024ae9f73a262fa8a18029013fa6e680237bb1385b1a149fea37935f2/0E1F15E7-32B7-44A1-BAF8-327ECE54DF5C_1751573053.png?width=2400&optimize=medium" 
+                src="https://ad00af1024ae9f73a262.cdn6.editmysite.com/uploads/b/ad00af1024ae9f73a262fa8a18029013fa6e680237bb1385b1a149fea37935f2/0E1F15E7-32B7-44A1-BAF8-327ECE54DF5C_1751573053.png?width=200&optimize=medium" 
                 alt="Brow.rn Logo" 
+                width="66"
+                height="48"
                 className="h-12 w-auto invert brightness-0 group-hover:scale-105 transition-transform duration-500"
-                referrerPolicy="no-referrer"
               />
             </a>
             <p className="text-white/50 text-lg leading-relaxed max-w-md">
