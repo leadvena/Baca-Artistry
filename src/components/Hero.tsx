@@ -29,7 +29,7 @@ export default function Hero() {
       {/* Background Image/Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/images/hero.png" 
+          src="/images/hero.webp" 
           alt="Professional permanent makeup artist Caroline Baca at Brow.rn Minneapolis performing hyper-realistic microblading and lip blush treatments" 
           width="1920"
           height="1080"

@@ -6,7 +6,7 @@ const services = [
     title: 'Combo Brows',
     description: 'The ultimate brow transformation. By combining manual microblading strokes with soft machine shading, we create depth and dimension that mimics natural hair growth while providing a beautifully defined shape.',
     price: '$500',
-    image: '/images/combo-brows.png',
+    image: '/images/combo-brows.webp',
     tag: 'Most Popular'
   },
   {
@@ -14,7 +14,7 @@ const services = [
     title: 'Microblading',
     description: 'A manual technique designed for those seeking the most natural enhancement. Individual, ultra-fine strokes are hand-drawn to fill in sparse areas and perfect your natural brow architecture.',
     price: '$450',
-    image: '/images/microblading.png',
+    image: '/images/microblading.webp',
   },
   {
     id: 'powder',

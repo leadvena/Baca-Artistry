@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 
 const galleryItems = [
-  { id: 1, title: 'Natural Brow Restoration', before: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&q=80&w=600&blur=10', after: '/images/gallery-brow.png' },
+  { id: 1, title: 'Natural Brow Restoration', before: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&q=80&w=600&blur=10', after: '/images/gallery-brow.webp' },
   { id: 2, title: 'Velvet Lip Blush', before: 'https://images.pexels.com/photos/3018845/pexels-photo-3018845.jpeg?auto=compress&cs=tinysrgb&w=600&blur=10', after: 'https://images.pexels.com/photos/3018845/pexels-photo-3018845.jpeg?auto=compress&cs=tinysrgb&w=600' },
   { id: 3, title: 'Soft Ombre Powder Brows', before: 'https://images.pexels.com/photos/3373739/pexels-photo-3373739.jpeg?auto=compress&cs=tinysrgb&w=600&blur=10', after: 'https://images.pexels.com/photos/3373739/pexels-photo-3373739.jpeg?auto=compress&cs=tinysrgb&w=600' },
   { id: 4, title: 'Lash Enhancement Eyeliner', before: 'https://images.pexels.com/photos/4612159/pexels-photo-4612159.jpeg?auto=compress&cs=tinysrgb&w=600&blur=10', after: 'https://images.pexels.com/photos/4612159/pexels-photo-4612159.jpeg?auto=compress&cs=tinysrgb&w=600' },
