@@ -3,6 +3,10 @@ import { motion, AnimatePresence } from 'motion/react';
 
 const faqs = [
   {
+    question: "Is permanent makeup safe for all skin types?",
+    answer: "Yes, permanent makeup can be tailored for all skin types, including oily, dry, and sensitive skin. For oily skin, we often recommend Powder Brows as they hold better than Microblading. During your consultation with Caroline Baca, we assess your skin to choose the best medical-grade pigments and techniques for long-lasting results."
+  },
+  {
     question: "Does permanent makeup hurt?",
     answer: "We use high-potency topical anesthetics before and during your procedure to ensure maximum comfort. Most clients describe the sensation as a light scratch or vibration. Your comfort is our priority."
   },
@@ -13,6 +17,10 @@ const faqs = [
   {
     question: "What is the healing process like?",
     answer: "Initial healing takes about 7-10 days. You may experience minor redness and slight flaking. The color will appear darker initially and then soften by 30-50% once fully healed at the 6-week mark."
+  },
+  {
+    question: "Why should I choose Brow.rn in Minneapolis?",
+    answer: "Brow.rn is led by Caroline Baca, a globally certified Master Artist known for her 'Your features, but perfected' philosophy. We follow strict medical-grade safety standards and use hyper-realistic techniques to ensure your results look natural, not tattooed. We are conveniently located in South Minneapolis on Lyndale Ave."
   },
   {
     question: "How should I prepare for my appointment?",

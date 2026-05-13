@@ -3,10 +3,10 @@ import { motion } from 'motion/react';
 const galleryItems = [
   { id: 1, title: 'Natural Brow Restoration', before: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&q=80&w=600&blur=10', after: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&q=80&w=600' },
   { id: 2, title: 'Velvet Lip Blush', before: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&q=80&w=600&blur=10', after: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&q=80&w=600' },
-  { id: 3, title: 'Soft Ombre Powder Brows', before: 'https://i.pinimg.com/736x/f4/d0/2d/f4d02d93c4c5b58c140a466299097c81.jpg', after: 'https://i.pinimg.com/736x/f4/d0/2d/f4d02d93c4c5b58c140a466299097c81.jpg' },
+  { id: 3, title: 'Soft Ombre Powder Brows', before: 'https://images.unsplash.com/photo-1522337621169-42af2446f1ad?auto=format&fit=crop&q=80&w=600&blur=10', after: 'https://images.unsplash.com/photo-1522337621169-42af2446f1ad?auto=format&fit=crop&q=80&w=600' },
   { id: 4, title: 'Lash Enhancement Eyeliner', before: 'https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&q=80&w=600&blur=10', after: 'https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&q=80&w=600' },
   { id: 5, title: 'Defined Lip Architecture', before: 'https://images.unsplash.com/photo-1498842812179-c81beecf902c?auto=format&fit=crop&q=80&w=600&blur=10', after: 'https://images.unsplash.com/photo-1498842812179-c81beecf902c?auto=format&fit=crop&q=80&w=600' },
-  { id: 6, title: 'Feather Touch Brows', before: 'https://i.pinimg.com/736x/6a/63/cd/6a63cdea50de76f2ec56b2ec83bf081e.jpg', after: 'https://i.pinimg.com/736x/6a/63/cd/6a63cdea50de76f2ec56b2ec83bf081e.jpg' },
+  { id: 6, title: 'Feather Touch Brows', before: 'https://images.unsplash.com/photo-1540555700478-4be289fbecee?auto=format&fit=crop&q=80&w=600&blur=10', after: 'https://images.unsplash.com/photo-1540555700478-4be289fbecee?auto=format&fit=crop&q=80&w=600' },
 ];
 
 export default function Gallery() {

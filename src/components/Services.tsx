@@ -14,21 +14,21 @@ const services = [
     title: 'Microblading',
     description: 'A manual technique designed for those seeking the most natural enhancement. Individual, ultra-fine strokes are hand-drawn to fill in sparse areas and perfect your natural brow architecture.',
     price: '$450',
-    image: 'https://i.pinimg.com/736x/28/e1/ff/28e1ff4f75be5a5ddb15b9287205b18c.jpg',
+    image: '/images/microblading.png',
   },
   {
     id: 'powder',
     title: 'Powder Brows',
     description: 'A soft, misty gradient effect created with a specialized machine. Ideal for all skin types, this technique provides a "filled-in" look that ranges from ultra-subtle to bold definition.',
     price: '$475',
-    image: 'https://i.pinimg.com/736x/e3/b9/d2/e3b9d2ebd73f0e2da15af573db1c96ce.jpg',
+    image: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&q=80&w=1200',
   },
   {
     id: 'lip',
     title: 'Lip Blush',
     description: 'Redefine your smile with a soft wash of custom-blended color. This treatment enhances your natural shape, adds symmetrical definition, and provides a healthy, youthful tint that lasts for years.',
     price: '$475',
-    image: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://images.unsplash.com/photo-1522337621169-42af2446f1ad?auto=format&fit=crop&q=80&w=1200',
   }
 ];
 
@@ -57,7 +57,7 @@ export default function Services() {
                 <div className="aspect-[4/5] overflow-hidden rounded-2xl shadow-warm">
                   <img 
                     src={service.image} 
-                    alt={service.title} 
+                    alt={`${service.title} - Hyper-realistic permanent makeup results by Caroline Baca in Minneapolis`} 
                     width="600"
                     height="750"
                     loading="lazy"
