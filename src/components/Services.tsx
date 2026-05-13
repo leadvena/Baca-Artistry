@@ -21,14 +21,14 @@ const services = [
     title: 'Powder Brows',
     description: 'A soft, misty gradient effect created with a specialized machine. Ideal for all skin types, this technique provides a "filled-in" look that ranges from ultra-subtle to bold definition.',
     price: '$475',
-    image: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://images.pexels.com/photos/3373739/pexels-photo-3373739.jpeg?auto=compress&cs=tinysrgb&w=1200',
   },
   {
     id: 'lip',
     title: 'Lip Blush',
     description: 'Redefine your smile with a soft wash of custom-blended color. This treatment enhances your natural shape, adds symmetrical definition, and provides a healthy, youthful tint that lasts for years.',
     price: '$475',
-    image: 'https://images.unsplash.com/photo-1522337621169-42af2446f1ad?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://images.pexels.com/photos/3018845/pexels-photo-3018845.jpeg?auto=compress&cs=tinysrgb&w=1200',
   }
 ];
 

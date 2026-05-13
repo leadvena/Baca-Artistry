@@ -2,10 +2,10 @@ import { motion } from 'motion/react';
 import { Instagram as InstagramIcon } from 'lucide-react';
 
 const instagramImages = [
-  'https://images.unsplash.com/photo-1522337621169-42af2446f1ad?auto=format&fit=crop&q=80&w=600',
-  'https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=600',
-  'https://images.unsplash.com/photo-1560750588-73207b1ef5b8?auto=format&fit=crop&q=80&w=600',
-  'https://images.unsplash.com/photo-1540555700478-4be289fbecee?auto=format&fit=crop&q=80&w=600',
+  'https://images.pexels.com/photos/3018845/pexels-photo-3018845.jpeg?auto=compress&cs=tinysrgb&w=600',
+  'https://images.pexels.com/photos/3373739/pexels-photo-3373739.jpeg?auto=compress&cs=tinysrgb&w=600',
+  'https://images.pexels.com/photos/3762466/pexels-photo-3762466.jpeg?auto=compress&cs=tinysrgb&w=600',
+  'https://images.pexels.com/photos/4612159/pexels-photo-4612159.jpeg?auto=compress&cs=tinysrgb&w=600',
 ];
 
 export default function Instagram() {

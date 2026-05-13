@@ -2,11 +2,11 @@ import { motion } from 'motion/react';
 
 const galleryItems = [
   { id: 1, title: 'Natural Brow Restoration', before: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&q=80&w=600&blur=10', after: '/images/gallery-brow.png' },
-  { id: 2, title: 'Velvet Lip Blush', before: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&q=80&w=600&blur=10', after: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&q=80&w=600' },
-  { id: 3, title: 'Soft Ombre Powder Brows', before: 'https://images.unsplash.com/photo-1522337621169-42af2446f1ad?auto=format&fit=crop&q=80&w=600&blur=10', after: 'https://images.unsplash.com/photo-1522337621169-42af2446f1ad?auto=format&fit=crop&q=80&w=600' },
-  { id: 4, title: 'Lash Enhancement Eyeliner', before: 'https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&q=80&w=600&blur=10', after: 'https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&q=80&w=600' },
-  { id: 5, title: 'Defined Lip Architecture', before: 'https://images.unsplash.com/photo-1498842812179-c81beecf902c?auto=format&fit=crop&q=80&w=600&blur=10', after: 'https://images.unsplash.com/photo-1498842812179-c81beecf902c?auto=format&fit=crop&q=80&w=600' },
-  { id: 6, title: 'Feather Touch Brows', before: 'https://images.unsplash.com/photo-1540555700478-4be289fbecee?auto=format&fit=crop&q=80&w=600&blur=10', after: 'https://images.unsplash.com/photo-1540555700478-4be289fbecee?auto=format&fit=crop&q=80&w=600' },
+  { id: 2, title: 'Velvet Lip Blush', before: 'https://images.pexels.com/photos/3018845/pexels-photo-3018845.jpeg?auto=compress&cs=tinysrgb&w=600&blur=10', after: 'https://images.pexels.com/photos/3018845/pexels-photo-3018845.jpeg?auto=compress&cs=tinysrgb&w=600' },
+  { id: 3, title: 'Soft Ombre Powder Brows', before: 'https://images.pexels.com/photos/3373739/pexels-photo-3373739.jpeg?auto=compress&cs=tinysrgb&w=600&blur=10', after: 'https://images.pexels.com/photos/3373739/pexels-photo-3373739.jpeg?auto=compress&cs=tinysrgb&w=600' },
+  { id: 4, title: 'Lash Enhancement Eyeliner', before: 'https://images.pexels.com/photos/4612159/pexels-photo-4612159.jpeg?auto=compress&cs=tinysrgb&w=600&blur=10', after: 'https://images.pexels.com/photos/4612159/pexels-photo-4612159.jpeg?auto=compress&cs=tinysrgb&w=600' },
+  { id: 5, title: 'Defined Lip Architecture', before: 'https://images.pexels.com/photos/3762871/pexels-photo-3762871.jpeg?auto=compress&cs=tinysrgb&w=600&blur=10', after: 'https://images.pexels.com/photos/3762871/pexels-photo-3762871.jpeg?auto=compress&cs=tinysrgb&w=600' },
+  { id: 6, title: 'Feather Touch Brows', before: 'https://images.pexels.com/photos/3762466/pexels-photo-3762466.jpeg?auto=compress&cs=tinysrgb&w=600&blur=10', after: 'https://images.pexels.com/photos/3762466/pexels-photo-3762466.jpeg?auto=compress&cs=tinysrgb&w=600' },
 ];
 
 export default function Gallery() {
